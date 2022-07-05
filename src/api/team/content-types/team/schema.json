@@ -24,8 +24,44 @@
     "email": {
       "type": "string"
     },
-    "about": {
-      "type": "string"
+    "summary": {
+      "type": "text"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "skills": {
+      "displayName": "skills",
+      "type": "component",
+      "repeatable": true,
+      "component": "team.skills"
+    },
+    "capabilities": {
+      "displayName": "capabilities",
+      "type": "component",
+      "repeatable": true,
+      "component": "team.capabilities"
+    },
+    "socials": {
+      "displayName": "socials",
+      "type": "component",
+      "repeatable": true,
+      "component": "team.socials"
     }
   }
 }

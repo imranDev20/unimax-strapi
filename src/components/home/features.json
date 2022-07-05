@@ -2,19 +2,27 @@
   "collectionName": "components_home_features",
   "info": {
     "displayName": "features",
-    "icon": "hand-point-right"
+    "icon": "hand-point-right",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "featureIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "featureName": {
+      "type": "string"
+    },
+    "featureText": {
+      "type": "text"
     }
   }
 }

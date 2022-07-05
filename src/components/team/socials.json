@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_team_socials",
+  "info": {
+    "displayName": "socials",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "socialLink": {
+      "type": "string"
+    }
+  }
+}

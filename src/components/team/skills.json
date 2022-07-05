@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_team_skills",
+  "info": {
+    "displayName": "skills",
+    "icon": "people-carry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "skillName": {
+      "type": "string"
+    },
+    "expertiseLevel": {
+      "type": "integer",
+      "max": 10,
+      "default": 5
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_team_capabilities",
+  "info": {
+    "displayName": "capabilities",
+    "icon": "chess",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "capabilityPoint": {
+      "type": "string"
+    }
+  }
+}
