@@ -2,11 +2,18 @@
   "collectionName": "components_team_socials",
   "info": {
     "displayName": "socials",
-    "icon": "people-carry"
+    "icon": "people-carry",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "socialLink": {
+    "facebookLink": {
+      "type": "string"
+    },
+    "twitterLink": {
+      "type": "string"
+    },
+    "linkedInLink": {
       "type": "string"
     }
   }

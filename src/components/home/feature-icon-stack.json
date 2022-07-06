@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_feature_icon_stacks",
+  "info": {
+    "displayName": "featureIconStack",
+    "icon": "icons"
+  },
+  "options": {},
+  "attributes": {
+    "featureIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "featureName": {
+      "type": "string"
+    },
+    "featureText": {
+      "type": "text"
+    }
+  }
+}
