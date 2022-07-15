@@ -60,7 +60,7 @@
     "socials": {
       "displayName": "socials",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "team.socials"
     }
   }
