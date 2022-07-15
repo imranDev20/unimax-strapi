@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_technologies",
+  "info": {
+    "displayName": "technologies",
+    "icon": "laptop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "technologyImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "technologyName": {
+      "type": "string"
+    }
+  }
+}

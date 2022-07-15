@@ -23,7 +23,8 @@
       "type": "dynamiczone",
       "components": [
         "home.features",
-        "home.hero"
+        "home.hero",
+        "home.technologies"
       ]
     }
   }
