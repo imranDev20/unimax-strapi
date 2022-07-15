@@ -29,6 +29,10 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "serviceSummary": {
+      "type": "text",
+      "maxLength": 150
     }
   }
 }
