@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_technology_stacks",
+  "info": {
+    "displayName": "technologyStack",
+    "icon": "laptop"
+  },
+  "options": {},
+  "attributes": {
+    "technologyName": {
+      "type": "string"
+    },
+    "technologyImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
