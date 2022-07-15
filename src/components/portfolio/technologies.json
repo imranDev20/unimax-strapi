@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_portfolio_technologies",
+  "info": {
+    "displayName": "technologies",
+    "icon": "laptop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "technologyName": {
+      "type": "string"
+    }
+  }
+}
