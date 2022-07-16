@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_services_sub_service_pricings",
+  "info": {
+    "displayName": "subServicePricing",
+    "icon": "money-bill-wave",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subServicePricingName": {
+      "type": "string"
+    },
+    "subServicePrice": {
+      "type": "string"
+    },
+    "subServicePricingCardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "subServicePricingCardPoints": {
+      "displayName": "subServicePricingCardPoints",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.sub-service-pricing-card-points"
+    }
+  }
+}

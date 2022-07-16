@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_services_steps",
+  "info": {
+    "displayName": "steps",
+    "icon": "shoe-prints"
+  },
+  "options": {},
+  "attributes": {
+    "stepName": {
+      "type": "string"
+    },
+    "stepImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "stepText": {
+      "type": "text"
+    }
+  }
+}

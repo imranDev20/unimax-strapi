@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_services_sub_service_pricing_card_points",
+  "info": {
+    "displayName": "subServicePricingCardPoints",
+    "icon": "hand-point-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subServicePricingCardPoint": {
+      "type": "string"
+    }
+  }
+}

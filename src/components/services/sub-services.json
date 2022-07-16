@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_services_sub_services",
+  "info": {
+    "displayName": "subServices",
+    "icon": "server",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subServiceName": {
+      "type": "string"
+    },
+    "subServiceSummary": {
+      "type": "text"
+    },
+    "subServiceText": {
+      "type": "richtext"
+    },
+    "subServiceImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

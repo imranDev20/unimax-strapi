@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_services_service_pricings",
+  "info": {
+    "displayName": "servicePricing",
+    "icon": "money-bill-wave"
+  },
+  "options": {},
+  "attributes": {}
+}

@@ -33,6 +33,24 @@
     "serviceSummary": {
       "type": "text",
       "maxLength": 150
+    },
+    "subServices": {
+      "displayName": "subServices",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.sub-services"
+    },
+    "steps": {
+      "displayName": "steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.steps"
+    },
+    "subServicePricing": {
+      "displayName": "subServicePricing",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.sub-service-pricing"
     }
   }
 }
