@@ -19,9 +19,15 @@
       "type": "uid",
       "targetField": "name"
     },
-    "images": {
+    "technologies": {
+      "displayName": "technologies",
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.technologies"
+    },
+    "image": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -30,11 +36,17 @@
         "audios"
       ]
     },
-    "technologies": {
-      "displayName": "technologies",
-      "type": "component",
-      "repeatable": true,
-      "component": "portfolio.technologies"
+    "isEven": {
+      "type": "boolean"
+    },
+    "liveLink": {
+      "type": "string"
+    },
+    "githubLink": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
     }
   }
 }
