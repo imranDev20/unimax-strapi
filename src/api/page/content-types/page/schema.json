@@ -22,9 +22,14 @@
     "blocks": {
       "type": "dynamiczone",
       "components": [
+        "about.about",
+        "global.page-header",
         "home.features",
         "home.hero",
-        "home.technologies"
+        "home.technologies",
+        "home.working-process",
+        "home.portfolio",
+        "home.specialization"
       ]
     }
   }

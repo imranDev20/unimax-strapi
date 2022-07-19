@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_page_headers",
+  "info": {
+    "displayName": "pageHeader",
+    "icon": "horse-head"
+  },
+  "options": {},
+  "attributes": {
+    "pageHeaderText": {
+      "type": "text"
+    }
+  }
+}

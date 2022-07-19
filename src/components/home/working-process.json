@@ -1,19 +1,13 @@
 {
-  "collectionName": "components_home_heroes",
+  "collectionName": "components_home_working_processes",
   "info": {
-    "displayName": "hero",
-    "icon": "archway",
+    "displayName": "workingProcess",
+    "icon": "truck-loading",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "heroTitle": {
-      "type": "string"
-    },
-    "heroText": {
-      "type": "text"
-    },
-    "heroImage": {
+    "workingProcessImage": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -24,7 +18,7 @@
         "audios"
       ]
     },
-    "heroHeader": {
+    "workingProcessHeader": {
       "type": "component",
       "repeatable": false,
       "component": "global.section-header"

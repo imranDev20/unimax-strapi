@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_portfolios",
+  "info": {
+    "displayName": "portfolio",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "portfolioHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.section-header"
+    }
+  }
+}

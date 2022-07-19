@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_about_abouts",
+  "info": {
+    "displayName": "about",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "aboutTitle": {
+      "type": "string"
+    },
+    "aboutText": {
+      "type": "richtext"
+    },
+    "aboutImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

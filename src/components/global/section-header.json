@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_section_headers",
+  "info": {
+    "displayName": "sectionHeader",
+    "icon": "horse-head"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionText": {
+      "type": "text"
+    }
+  }
+}
