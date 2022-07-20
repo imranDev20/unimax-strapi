@@ -31,8 +31,7 @@
       "targetField": "name"
     },
     "serviceSummary": {
-      "type": "text",
-      "maxLength": 150
+      "type": "text"
     },
     "subServices": {
       "displayName": "subServices",
