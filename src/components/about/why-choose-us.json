@@ -7,13 +7,17 @@
   },
   "options": {},
   "attributes": {
-    "whyChooseUsHeader": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.section-header"
-    },
     "whyChooseUsText": {
       "type": "richtext"
+    },
+    "whyChooseUsTitle": {
+      "type": "string"
+    },
+    "whyChooseUsBlock": {
+      "displayName": "whyChooseUsBlock",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.why-choose-us-block"
     }
   }
 }

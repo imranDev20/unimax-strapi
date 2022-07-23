@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_why_choose_us_blocks",
+  "info": {
+    "displayName": "whyChooseUsBlock",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "blockNumber": {
+      "type": "integer"
+    },
+    "blockText": {
+      "type": "string"
+    },
+    "blockSymbol": {
+      "type": "string"
+    }
+  }
+}
