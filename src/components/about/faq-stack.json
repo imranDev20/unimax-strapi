@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_about_faq_stacks",
+  "info": {
+    "displayName": "faqStack",
+    "icon": "question-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "faqQuestion": {
+      "type": "string"
+    },
+    "faqAns": {
+      "type": "text"
+    }
+  }
+}

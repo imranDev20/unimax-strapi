@@ -26,10 +26,12 @@
         "global.page-header",
         "home.features",
         "home.hero",
+        "home.portfolio",
+        "home.specialization",
         "home.technologies",
         "home.working-process",
-        "home.portfolio",
-        "home.specialization"
+        "about.why-choose-us",
+        "about.faq"
       ]
     }
   }
